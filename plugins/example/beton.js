@@ -11,7 +11,7 @@ export default {
   category: ['info'],
   description: 'ini plugin example beton :v',
 
-  async run({ feb, m, chat, sender, role }) {
+  async run({ bot, m, chat, sender, role }) {
     const buttons = [
       {
         name: "cta_copy",
@@ -83,6 +83,6 @@ icon: "DEFAULT"
       }
     }
 
-    await sendNativeFlow(feb, chat, message)
+    await sendNativeFlow(bot, chat, message)
   }
 }

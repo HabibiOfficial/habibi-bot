@@ -7,12 +7,12 @@ name: 'esce',
 command: ['sc','esce'],
 category: ['info'],
 
-async run({feb, m, chat}) {
+async run({bot, m, chat}) {
 const esce = 'https://github.com/HabibiOfficial/habibi-bot'
 
 const media = await prepareWAMessageMedia(
     { image: { url: 'https://api.habibimarket.dpdns.org/img/menu.jpg' } },
-    {upload: feb.waUploadToServer}
+    {upload: bot.waUploadToServer}
 )
 
 const msg = {
@@ -55,6 +55,6 @@ const msg = {
       }
     }
 
-    await sendNativeFlow(feb, chat, msg)
+    await sendNativeFlow(bot, chat, msg)
   }
 }
