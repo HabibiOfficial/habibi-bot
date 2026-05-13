@@ -3,7 +3,7 @@
  * ════════════════════════════════════════════ */
 
 import {sendNativeFlow } from '../../system/helper/nativeflow.js'
-import { febCtx } from '../../system/helper/custom-ctx.js'
+import { habibiCtx } from '../../system/helper/custom-ctx.js'
 
 export default {
   name: 'beton',
@@ -64,7 +64,7 @@ icon: "DEFAULT"
       viewOnceMessage: {
         message: {
           interactiveMessage: {
-            contextInfo: febCtx(m),
+            contextInfo: habibiCtx(m),
             body: {
               text:
                    `lid: ${sender.split('@')[0]}\n` +

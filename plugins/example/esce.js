@@ -1,6 +1,6 @@
 import { prepareWAMessageMedia } from 'baileys'
 import { sendNativeFlow } from '../../system/helper/nativeflow.js'
-import { febCtx } from '../../system/helper/custom-ctx.js'
+import { habibiCtx } from '../../system/helper/custom-ctx.js'
 
 export default {
 name: 'esce',
@@ -11,7 +11,7 @@ async run({feb, m, chat}) {
 const esce = 'https://github.com/HabibiOfficial/habibi-bot'
 
 const media = await prepareWAMessageMedia(
-    { image: { url: 'https://cloud.yardansh.com/AEzVtQ.jpg' } },
+    { image: { url: 'https://api.habibimarket.dpdns.org/img/menu.jpg' } },
     {upload: feb.waUploadToServer}
 )
 
@@ -19,7 +19,7 @@ const msg = {
       viewOnceMessage: {
         message: {
           interactiveMessage: {
-            contextInfo: febCtx(m),
+            contextInfo: habibiCtx(m),
             header: {
               title: "habibi-bot",
               hasMediaAttachment: true,

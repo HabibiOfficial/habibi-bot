@@ -24,11 +24,11 @@
 //
 import { sendNativeFlow } from '../../system/helper/nativeflow.js'
 
-// febCtx dipakai untuk bikin contextInfo
+// habibiCtx dipakai untuk bikin contextInfo
 // supaya interactiveMessage punya quoted ctx
 // yang valid. biasanya dipakai bareng sendNativeFlow.
 //
-import { febCtx } from '../../system/helper/custom-ctx.js'
+import { habibiCtx } from '../../system/helper/custom-ctx.js'
 
 
 export default {
@@ -164,9 +164,9 @@ export default {
     //         sama dengan m.raw
     raw,
 
-    // wesker : instance PluginManager
-    //          bisa dipakai untuk interaksi antar plugin,
-    //          cek daftar plugin, enable/disable command, dll
+    // bot : instance PluginManager
+    //       bisa dipakai untuk interaksi antar plugin,
+    //       cek daftar plugin, enable/disable command, dll
     bot,
 
     // other : object tambahan dari handler
@@ -312,9 +312,9 @@ export default {
     //   viewOnceMessage: {
     //     message: {
     //       interactiveMessage: {
-    //         contextInfo: febCtx(m),
+    //         contextInfo: habibiCtx(m),
     //         body: { text: 'pilih:' },
-    //         footer: { text: 'wesker-bot' },
+    //         footer: { text: 'habibi-bot' },
     //         nativeFlowMessage: {
     //           buttons,
     //           messageParamsJson: JSON.stringify({ v: '1' })

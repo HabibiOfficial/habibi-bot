@@ -21,7 +21,7 @@ import { jidNormalizedUser }  from 'baileys'
 import { getRole }            from '../helper/access.js'
 import { isLocked }           from '../helper/lock.js'
 import { isDebug }            from '../helper/debug.js'
-import { patchFeb }           from '../helper/feb-patch.js'
+import { patchHabibi }           from '../helper/habibi-patch.js'
 import { getReactionCmdDB }   from '../helper/reaction-cmd.js'
 import { isFakeQEnabled }     from '../helper/fakeq.js'
 
@@ -76,7 +76,7 @@ export async function handleMessageUpsert(feb, messages) {
             const role = getRole(sender)
             if (!role) continue
 
-            const patchedFeb = patchFeb(feb, m)
+            const patchedFeb = patchHabibi(feb, m)
 
             await feb.pluginManager.executePlugin(command, {
               feb    : patchedFeb,
@@ -207,7 +207,7 @@ export async function handleMessageUpsert(feb, messages) {
           })
         }
 
-        const patchedFeb = patchFeb(feb, targetM)
+        const patchedFeb = patchHabibi(feb, targetM)
 
         await feb.pluginManager.executePlugin(command, {
           feb    : patchedFeb,
@@ -285,7 +285,7 @@ export async function handleMessageUpsert(feb, messages) {
         continue
       }
 
-      const patchedFeb = patchFeb(feb, m)
+      const patchedFeb = patchHabibi(feb, m)
 
       await feb.pluginManager.executePlugin(extracted.command, {
         feb    : patchedFeb,

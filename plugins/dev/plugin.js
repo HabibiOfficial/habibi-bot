@@ -341,7 +341,7 @@ export default {
       m,
       args,
       other,
-      wesker
+      bot
     } = ctx
 
     const pm = bot
