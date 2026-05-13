@@ -1,0 +1,35 @@
+{
+  "name": "habibi-bot",
+  "version": "1.0.0",
+  "description": "Habibi Bot - WhatsApp Bot berbasis Baileys dengan support nativeFlowMessage & interactiveMessage.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node launcher.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "habibi",
+    "nativeflow",
+    "interactive"
+  ],
+  "author": "Habibi <https://github.com/HabibiOfficial>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HabibiOfficial/habibi-bot"
+  },
+  "homepage": "https://github.com/HabibiOfficial/habibi-bot#readme",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "baileys": "npm:baileys@7.0.0-rc.9",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "form-data": "^4.0.5",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.14.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
