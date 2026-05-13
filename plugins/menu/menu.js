@@ -96,10 +96,10 @@ export default {
       mentions: [user],
       contextInfo: {
         externalAdReply: {
-          title: 'wesker-bot',
-          body: 'dikembangkan oleh febry wesker (feb.azbry.com)',
-          thumbnailUrl: 'https://api.azbry.com/api/wesker.jpg',
-          sourceUrl: 'https://github.com/vandebry10-star/wesker-bot',
+          title: 'Habibi Bot',
+          body: 'dikembangkan oleh Habibi',
+          thumbnailUrl: 'https://api.habibimarket.dpdns.org/img/menu.jpg',
+          sourceUrl: 'https://github.com/HabibiOfficial/habibi-bot',
           mediaType: 1,
           renderLargerThumbnail: true,
           showAdAttribution: false
