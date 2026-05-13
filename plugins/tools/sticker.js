@@ -1,9 +1,9 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════
  * file    : plugins/tools/sticker.js
  * desc    : plugins › sticker
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════ */
 
 import { downloadMedia } from '../../system/helper/download-media.js'

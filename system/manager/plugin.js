@@ -1,11 +1,11 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════
  * file    : system/manager/plugin.js
  * desc    : system › manager › plugin
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════
- * © 2026 febry wesker. all rights reserved.
+ * © 2026 habibi. all rights reserved.
  * do not resell, redistribute, or claim as
  * your own work without explicit permission.
  * ════════════════════════════════════════════ */
@@ -48,7 +48,7 @@ function formatError(e) {
   if (relevantLine) {
     const match = relevantLine.match(/\(?(file:\/\/\/|\/)?([^\s(]+\.m?js):(\d+):(\d+)\)?/)
     if (match) {
-      const filePath = match[2].replace(/.*wesker\//, '')
+      const filePath = match[2].replace(/.*habibi-bot\//, '')
       location = `${filePath}:${match[3]}:${match[4]}`
     }
   }
@@ -259,7 +259,7 @@ export default class PluginManager {
               !l.includes('node_modules') && l.includes('.js')
             )
             const match = line?.match(/\(?(file:\/\/\/)?([^\s(]+\.m?js):(\d+)/)
-            return match ? match[2].replace(/.*wesker\//, '') + ':' + match[3] : 'unknown'
+            return match ? match[2].replace(/.*habibi-bot\//, '') + ':' + match[3] : 'unknown'
           })()}`
         ).catch(() => {})
       }

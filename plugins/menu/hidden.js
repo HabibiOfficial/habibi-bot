@@ -1,15 +1,15 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════
  * file    : plugins/menu/hidden.js
  * desc    : plugins › hidden
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════
- * © 2026 febry wesker. all rights reserved.
+ * © 2026 habibi. all rights reserved.
  * do not resell, redistribute, or claim as
  * your own work without explicit permission.
  * ────────────────────────────────────────────
- * © 2026 febry wesker. semua hak dilindungi.
+ * © 2026 habibi. semua hak dilindungi.
  * dilarang menjual, menyebarkan, atau mengaku
  * sebagai karya sendiri tanpa izin tertulis.
  * ════════════════════════════════════════════ */
@@ -31,13 +31,13 @@ export default {
   category: ['owner'],
   description: 'daftar perintah yang disembunyikan',
 
-  async run({ feb, m, wesker, other }) {
-    if (!wesker)
+  async run({ feb, m, bot, other }) {
+    if (!bot)
       return m.reply('pengelola plugin tiada tersedia')
 
     const map = new Map()
 
-    for (const p of wesker.getAllPlugins()) {
+    for (const p of bot.getAllPlugins()) {
       const isHidden =
         p.hidden === true ||
         p.noMenu === true ||

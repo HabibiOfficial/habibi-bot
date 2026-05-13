@@ -1,9 +1,9 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════
  * file    : plugins/system/prefix.js
  * desc    : plugins › prefix manager
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════ */
 
 // backup prefix saat dimatikan

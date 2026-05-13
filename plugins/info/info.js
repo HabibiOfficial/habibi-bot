@@ -1,5 +1,5 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * file    : plugins/info/info.js
  * ════════════════════════════════════════════ */
 

@@ -1,15 +1,15 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════
  * file    : system/handler/message-upsert.js
  * desc    : system › handler › message-upsert
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════
- * © 2026 febry wesker. all rights reserved.
+ * © 2026 habibi. all rights reserved.
  * do not resell, redistribute, or claim as
  * your own work without explicit permission.
  * ────────────────────────────────────────────
- * © 2026 febry wesker. semua hak dilindungi.
+ * © 2026 habibi. semua hak dilindungi.
  * dilarang menjual, menyebarkan, atau mengaku
  * sebagai karya sendiri tanpa izin tertulis.
  * ════════════════════════════════════════════ */
@@ -80,7 +80,7 @@ export async function handleMessageUpsert(feb, messages) {
 
             await feb.pluginManager.executePlugin(command, {
               feb    : patchedFeb,
-              wesker : feb.pluginManager,
+              bot : feb.pluginManager,
               command,
               args,
               prefix     : '',
@@ -97,7 +97,7 @@ export async function handleMessageUpsert(feb, messages) {
               other: {
                 storeMessage : messageStore,
                 pluginManager: feb.pluginManager,
-                wesker       : feb.pluginManager,
+                bot       : feb.pluginManager,
                 triggeredBy  : 'quick_reply'
               }
             })
@@ -211,7 +211,7 @@ export async function handleMessageUpsert(feb, messages) {
 
         await feb.pluginManager.executePlugin(command, {
           feb    : patchedFeb,
-          wesker : feb.pluginManager,
+          bot : feb.pluginManager,
           command,
           args,
           prefix     : '',
@@ -228,7 +228,7 @@ export async function handleMessageUpsert(feb, messages) {
           other: {
             storeMessage : messageStore,
             pluginManager: feb.pluginManager,
-            wesker       : feb.pluginManager,
+            bot       : feb.pluginManager,
             triggeredBy  : 'reaction'
           }
         })
@@ -289,7 +289,7 @@ export async function handleMessageUpsert(feb, messages) {
 
       await feb.pluginManager.executePlugin(extracted.command, {
         feb    : patchedFeb,
-        wesker : feb.pluginManager,
+        bot : feb.pluginManager,
         command: extracted.command,
         args   : extracted.args,
         prefix : extracted.prefix,
@@ -306,7 +306,7 @@ export async function handleMessageUpsert(feb, messages) {
         other: {
           storeMessage : messageStore,
           pluginManager: feb.pluginManager,
-          wesker       : feb.pluginManager,
+          bot       : feb.pluginManager,
         }
       })
 

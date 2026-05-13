@@ -1,5 +1,5 @@
 /* ════════════════════════════════════════════
- * wesker-md  ╌  febry wesker
+ * habibi-bot  ╌  habibi
  * ════════════════════════════════════════════ */
 
 import {sendNativeFlow } from '../../system/helper/nativeflow.js'
@@ -17,14 +17,14 @@ export default {
         name: "cta_copy",
         buttonParamsJson: JSON.stringify({
           display_text: "cta_copy",
-          copy_code: "https://github.com/vandebry10-star/wesker-bot"
+          copy_code: "https://github.com/HabibiOfficial/habibi-bot"
         })
       },
       {
         name: "cta_url",
         buttonParamsJson: JSON.stringify({
           display_text: "cta_url",
-          url: "https://github.com/vandebry10-star/wesker-bot"
+          url: "https://github.com/HabibiOfficial/habibi-bot"
         })
       },
       {
@@ -72,7 +72,7 @@ icon: "DEFAULT"
      
             },
             footer: {
-              text: "vandebry10-star/wesker-bot"
+              text: "HabibiOfficial/habibi-bot"
             },
             nativeFlowMessage: {
               buttons: buttons,

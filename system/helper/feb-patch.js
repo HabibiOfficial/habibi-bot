@@ -1,5 +1,5 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════ */
 
 import { isFakeQEnabled } from './fakeq.js'

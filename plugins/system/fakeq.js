@@ -1,8 +1,8 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * file    : plugins/system/fakeq.js
  * desc    : plugins › fakeq
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════ */
 
 import { isFakeQEnabled, setFakeQ } from '../../system/helper/fakeq.js'

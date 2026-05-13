@@ -113,4 +113,4 @@ await sendNativeFlow(feb, chat, {
 
 ## Credit
 
-Built by **Habibi** — based on [wesker-bot](https://github.com/vandebry10-star/wesker-bot) by febry wesker.
+Built by **Habibi** — based on [wesker-bot](https://github.com/HabibiOfficial/habibi-bot) by habibi.

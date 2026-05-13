@@ -1,9 +1,9 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * file    : plugins/info/getid.js
  * ════════════════════════════════════════════ */
 
-import { normalizeMentions, buildContextInfo } from '../../system/helper/wesker-message.js'
+import { normalizeMentions, buildContextInfo } from '../../system/helper/habibi-message.js'
 import { sendNativeFlow } from '../../system/helper/nativeflow.js'
 
 export default {

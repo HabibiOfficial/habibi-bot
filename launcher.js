@@ -1,15 +1,15 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════
  * file    : launcher.js
  * desc    : launcher
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════
- * © 2026 febry wesker. all rights reserved.
+ * © 2026 habibi. all rights reserved.
  * do not resell, redistribute, or claim as
  * your own work without explicit permission.
  * ────────────────────────────────────────────
- * © 2026 febry wesker. semua hak dilindungi.
+ * © 2026 habibi. semua hak dilindungi.
  * dilarang menjual, menyebarkan, atau mengaku
  * sebagai karya sendiri tanpa izin tertulis.
  * ════════════════════════════════════════════ */
@@ -32,7 +32,7 @@ const sep  = () => process.stdout.write(`${c.dim}┄┄┄┄┄┄┄┄┄┄�
 const row  = (k, v) => process.stdout.write(`  ${c.dim}⟡ ${k.padEnd(10)}${c.reset}╌ ${c.white}${v}${c.reset}\n`)
 const gap  = () => process.stdout.write('\n')
 
-let pkg = { name: 'wesker-md', version: '1.4.8', author: 'febry wesker', description: '' }
+let pkg = { name: 'habibi-bot', version: '1.4.8', author: 'habibi', description: '' }
 try { pkg = JSON.parse(readFileSync('./package.json', 'utf8')) } catch {}
 
 let plugins = 0

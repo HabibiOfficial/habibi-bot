@@ -1,8 +1,8 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * file    : plugins/dev/plugin.js
  * desc    : plugins › plugin manager
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════ */
 
 import fs from 'node:fs'
@@ -344,7 +344,7 @@ export default {
       wesker
     } = ctx
 
-    const pm = wesker
+    const pm = bot
     const store = other?.storeMessage
 
     if (!args[0]) {

@@ -1,9 +1,9 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════
  * file    : system/helper/send.js
  * desc    : helper › send — shorthand semua tipe pesan
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════
  *
  * Semua function di sini bisa dipakai langsung

@@ -8,7 +8,7 @@ command: ['sc','esce'],
 category: ['info'],
 
 async run({feb, m, chat}) {
-const esce = 'https://github.com/vandebry10-star/wesker-bot'
+const esce = 'https://github.com/HabibiOfficial/habibi-bot'
 
 const media = await prepareWAMessageMedia(
     { image: { url: 'https://cloud.yardansh.com/AEzVtQ.jpg' } },
@@ -21,7 +21,7 @@ const msg = {
           interactiveMessage: {
             contextInfo: febCtx(m),
             header: {
-              title: "wesker-bot",
+              title: "habibi-bot",
               hasMediaAttachment: true,
                 ...media
             },
@@ -29,7 +29,7 @@ const msg = {
               text: `bot ini menggunakan source code yang bisa kamu temukan di github. klik tombol dibawah untuk melihatnya`
             },
             footer: {
-              text: `vandebry10-star/wesker-bot`
+              text: `HabibiOfficial/habibi-bot`
             },
             nativeFlowMessage: {
               buttons: [
@@ -37,14 +37,14 @@ const msg = {
         name: "cta_copy",
         buttonParamsJson: JSON.stringify({
           display_text: "copy link repo",
-          copy_code: "https://github.com/vandebry10-star/wesker-bot"
+          copy_code: "https://github.com/HabibiOfficial/habibi-bot"
         })
       },
       {
         name: "cta_url",
         buttonParamsJson: JSON.stringify({
           display_text: "buka link repo",
-          url: "https://github.com/vandebry10-star/wesker-bot"
+          url: "https://github.com/HabibiOfficial/habibi-bot"
         })
       }
 ],

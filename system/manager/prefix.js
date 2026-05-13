@@ -1,15 +1,15 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════
  * file    : system/manager/prefix.js
  * desc    : system › manager › prefix
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════
- * © 2026 febry wesker. all rights reserved.
+ * © 2026 habibi. all rights reserved.
  * do not resell, redistribute, or claim as
  * your own work without explicit permission.
  * ────────────────────────────────────────────
- * © 2026 febry wesker. semua hak dilindungi.
+ * © 2026 habibi. semua hak dilindungi.
  * dilarang menjual, menyebarkan, atau mengaku
  * sebagai karya sendiri tanpa izin tertulis.
  * ════════════════════════════════════════════ */

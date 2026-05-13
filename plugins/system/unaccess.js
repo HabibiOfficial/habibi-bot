@@ -1,8 +1,8 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * file    : plugins/system/unaccess.js
  * desc    : plugins › unaccess
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════ */
 
 import { getRole, removeUser } from '../../system/helper/access.js'

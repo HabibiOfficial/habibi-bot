@@ -1,9 +1,9 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════
  * file    : plugins/example/master.js
  * desc    : plugin master example, full komen
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════
  *
  * ini file contoh plugin paling lengkap.
@@ -167,7 +167,7 @@ export default {
     // wesker : instance PluginManager
     //          bisa dipakai untuk interaksi antar plugin,
     //          cek daftar plugin, enable/disable command, dll
-    wesker,
+    bot,
 
     // other : object tambahan dari handler
     //         other.storeMessage : akses message store
@@ -289,14 +289,14 @@ export default {
     //     name: 'cta_copy',
     //     buttonParamsJson: JSON.stringify({
     //       display_text: 'copy link',
-    //       copy_code: 'https://github.com/vandebry10-star/wesker-bot'
+    //       copy_code: 'https://github.com/HabibiOfficial/habibi-bot'
     //     })
     //   },
     //   {
     //     name: 'cta_url',
     //     buttonParamsJson: JSON.stringify({
     //       display_text: 'buka link',
-    //       url: 'https://github.com/vandebry10-star/wesker-bot'
+    //       url: 'https://github.com/HabibiOfficial/habibi-bot'
     //     })
     //   },
     //   {

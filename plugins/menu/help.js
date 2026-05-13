@@ -1,15 +1,15 @@
 /* ════════════════════════════════════════════
- * Wesker-MD  ╌  febry wesker
+ * Habibi Bot  ╌  habibi
  * ════════════════════════════════════════════
  * file    : plugins/menu/help.js
  * desc    : plugins › help
- * author  : febry  ⪩  2026
+ * author  : Habibi  ⪩  2026
  * ════════════════════════════════════════════
- * © 2026 febry wesker. all rights reserved.
+ * © 2026 habibi. all rights reserved.
  * do not resell, redistribute, or claim as
  * your own work without explicit permission.
  * ────────────────────────────────────────────
- * © 2026 febry wesker. semua hak dilindungi.
+ * © 2026 habibi. semua hak dilindungi.
  * dilarang menjual, menyebarkan, atau mengaku
  * sebagai karya sendiri tanpa izin tertulis.
  * ════════════════════════════════════════════ */
@@ -18,7 +18,7 @@ import crypto from 'node:crypto'
 import fetch from 'node-fetch'
 
 const DEFAULT_THUMB =
-  'https://api.azbry.com/api/wesker.jpg'
+  'https://api.habibimarket.dpdns.org/img/menu.jpg'
 
 async function getThumbBuffer(url) {
   try {
@@ -36,8 +36,8 @@ export default {
   category: ['main'],
   description: 'tampilkan daftar command + detail',
 
-  async run({ feb, m, raw, args, wesker, other }) {
-    const pm = wesker
+  async run({ feb, m, raw, args, bot, other }) {
+    const pm = bot
     if (!pm) return
 
     const plugins = pm.getAllPlugins()
