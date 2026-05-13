@@ -7,13 +7,7 @@
  * ════════════════════════════════════════════ */
 
 import os from 'node:os'
-import fs from 'node:fs'
-import path from 'node:path'
-import { fileURLToPath } from 'url'
 import { generateWAMessageFromContent } from 'baileys'
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const IMG_PATH = path.join(__dirname, '../../system/helper/cache/botinfo.jpg')
 
 function uptime(sec) {
   sec = Math.floor(sec)
@@ -59,10 +53,7 @@ export default {
       `⟡ ram     ╌ ${bytes(total - free)} / ${bytes(total)}\n` +
       `⟡ load    ╌ ${os.loadavg().map(v => v.toFixed(2)).join(', ')}`
 
-    let img = null
-    try {
-      if (fs.existsSync(IMG_PATH)) img = fs.readFileSync(IMG_PATH)
-    } catch {}
+    const img = null
 
     const msg = generateWAMessageFromContent(m.chat, {
       orderMessage: {
